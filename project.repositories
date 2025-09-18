@@ -3,9 +3,33 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sean-kong/wish-list</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sean-kong/wish-list</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>local</id>
+        <url>C:\Users\209382672/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
