@@ -54,4 +54,10 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/sean-kong/wish-list</url>
+    </repository>
+  </distributionManagement>
 </project>
